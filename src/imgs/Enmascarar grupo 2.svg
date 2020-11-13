@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="41" viewBox="0 0 41 41">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectángulo_9" data-name="Rectángulo 9" width="41" height="41" transform="translate(34.06)" fill="rgba(0,0,0,0.49)"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_2" data-name="Enmascarar grupo 2" transform="translate(-34.06)" clip-path="url(#clip-path)">
+    <g id="Facebook-f_Logo-Blue-Logo.wine" transform="translate(33.933)">
+      <path id="Trazado_6" data-name="Trazado 6" d="M40.814,20.407a20.407,20.407,0,1,0-23.6,20.159V26.306H12.037v-5.9h5.182v-4.5c0-5.115,3.047-7.94,7.708-7.94a31.383,31.383,0,0,1,4.568.4v5.022H26.922c-2.535,0-3.326,1.573-3.326,3.187v3.828h5.66l-.9,5.9H23.6v14.26A20.412,20.412,0,0,0,40.815,20.407" fill="#e2eac4"/>
+      <path id="Trazado_7" data-name="Trazado 7" d="M167.609,118.53l.9-5.9h-5.66V108.8c0-1.614.791-3.187,3.326-3.187h2.573v-5.022a31.383,31.383,0,0,0-4.568-.4c-4.661,0-7.708,2.825-7.708,7.94v4.5H151.3v5.9h5.182v14.26a20.63,20.63,0,0,0,6.377,0V118.53h4.755" transform="translate(-139.258 -92.224)" fill="#5f6d3a"/>
+    </g>
+  </g>
+</svg>

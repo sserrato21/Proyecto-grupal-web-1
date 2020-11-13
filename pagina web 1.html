@@ -5,9 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./src/css/pagina web 1.css">
+    
+
+    <!--Import Google Font Montserrat-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!--Import Google Font Montserrat alternates-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <link rel="stylesheet" href="../../materialize/lib/materialize/css/materialize.min.css">
+    <link rel="stylesheet" href="./src/css/main.css">
     
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,30 +27,76 @@
 
 </head>
 <body>
+    <header class="row">
+        <div class="col l6 m12 s12 header" id="header1" >
+                <div id="logo">
+                    <img src="./src/imgs/Grupo 27.svg" alt="">
+                </div>
+        </div> 
+        <div class=" col l6 m12 s12 header" id="header2">
+            <div>
+                <a  class="waves-effect waves-light btn"  id="suscribirse_header">SUSCRIBIRSE AL BOLETIN</a>
+            </div>
+            <div id="media_logos">
+                <img src="./src/imgs/Enmascarar grupo 3.svg" alt="">
+                <img src="./src/imgs/instagram-circle.svg" alt="">
+                <img src="./src/imgs/Enmascarar grupo 2.svg" alt="">
+            </div>
+        </div> 
+        <div class="col l12 m12 s12 " id="menu_header">
+            <div id="options" class="col l8 m8 s12">
+                <div class="option">Blog</div>
+                <div class="option">Secciones</div>
+                <div class="option" id="option_home">Home</div>
+                <div class="option">Galeria</div>
+                <div class="option">Contáctanos</div>
+            </div>
+        </div> 
+        <div class="col l12 m12 s12" id="menu_line"></div>
+    </header>
+    <main>
 
-    <div class="row" >
-        <div class="col l1 m2 s3 red"></div>
-        <div class="col l1 m2 s3 purple"></div>
-        <div class="col l1 m2 s3 indigo"></div>
-        <div class="col l1 m2 s3 pink"></div>
-        <div class="col l1 m2 s3 blue"></div>
-        <div class="col l1 m2 s3 deep-purple"></div>
-        <div class="col l1 m2 s3 light-blue"></div>
-        <div class="col l1 m2 s3 cyan"></div>
-        <div class="col l1 m2 s3 teal"></div>
-        <div class="col l1 m2 s3 green"></div>
-        <div class="col l1 m2 s3 lime"></div>
-        <div class="col l1 m2 s3 amber"></div>
-        <div class="col l1 m2 s3 yellow"></div>
-        <div class="col l1 m2 s3 orange"></div>
-        <div class="col l1 m2 s3 deep-orange"></div>
-        <div class="col l1 m2 s3 brown"></div>
-        <div class="col l1 m2 s3 grey"></div>
-        <div class="col l1 m2 s3 blue-grey"></div>
-        <div class="col l1 m2 s3 black"></div>
-        <div class="col l1 m2 s3 white"></div>
-    </div>
-    <div id="myRect"></div>
+    <!-- Aqui va el contenido principal que varia de acuerdo a cada pagina (home, seccion 1, seccion 2)  -->
+
+    </main>
+    <footer class="row">
+        <div class="row" id="footer_op">
+            <div class="col l4 m6 s12 " id="footer_option">
+                <div id="redes_sociales">REDES SOCIALES</div>
+                <div id="redes_sociales_img">
+                    <img src="./src/imgs/Enmascarar grupo 3.svg" alt="">
+                    <img src="./src/imgs/instagram-circle.svg" alt="">
+                    <img src="./src/imgs/Enmascarar grupo 2.svg" alt="">
+                </div>
+            </div>
+            <div class="col l4 m6 s12 " id="footer_option">
+                <div id="idioma">IDIOMA</div>
+                <!-- Dropdown Trigger -->
+                <a class='dropdown-trigger btn ' href='#' data-target='dropdown1' id="idioma_default"><p id="texto_idioma">Español <span>▼</span></p> </a>
+
+                <!-- Dropdown Structure -->
+                <ul id='dropdown1' class='dropdown-content'>
+                    <li><a href="#!" class="grey-text">Español</a></li>
+                    <li><a href="#!" class="grey-text">English</a></li>
+                    <li class="divider" tabindex="-1"></li>
+                    <li><a href="#!" class="grey-text">Francais</a></li>
+                </ul>
+
+            </div>
+            <div class="col l4 m6 s12 " id="footer_option">
+                <div id="newsletter">NEWSLETTER <br> <span>Suscribete para mas informacion</span></div>
+                <div class="input-field1">
+                    <div class="input-field">
+                      <i class="material-icons prefix white-text">mode_edit</i>
+                      <textarea id="icon_prefix2" class="materialize-textarea "></textarea>
+                      <label for="icon_prefix2" class="white-text"><p id="ingresar_email">Ingresar e-mail</p></label>
+                    </div>
+                  </div>
+            </div>
+
+        </div>
+    </footer>
+   
 
 <script src="./src/js/pagina web 1.js"></script>
 
