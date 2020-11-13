@@ -312,6 +312,22 @@ header{
                     margin-left: 10px;
                 }
 
+        #aceptar_footer{
+            background-color: #2D3615;
+            height: 35px;
+            width: 130px;
+            font-weight: 700;
+            color: #E2EAC4;
+            font-size: 15px;
+            border-radius: 5px;
+            padding: 0px 0px 0px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center ;
+            box-shadow: 0px 0px 0px transparent;
+            margin-left: 45px;
+        }
+
 
 
 
