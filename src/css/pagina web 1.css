@@ -168,9 +168,32 @@ header{
      /* ---------------------------------------Main -------------------------------------------*/
 
         main{
-            height: 300px;
+            height: 1600px;
         }
-
+        #parte1{
+            height: 500px;
+            background-size: 1350px;
+            background-repeat: no-repeat;
+            background-image: url("https://assets.eflorist.com/site/32084100/Homepage/Homepage%204.jpg");
+        }
+        #parte2{
+            width: 100%;
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+        }
+        #parte3{
+          
+            height: 500px;
+            background-color:#F3D3CB;
+        }
+        #parte31{
+            height: 500px;
+            background-color:#F3D3CB;
+        }
+        #parte4{
+            height: 500px;
+            background-color:#94C6B1;
+        }
      /* ---------------------------------------Footer-------------------------------------------*/
 
         footer{
