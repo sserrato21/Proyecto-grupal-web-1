@@ -17,16 +17,14 @@ $(document).ready(function() {
 
 
   // Interaccion 3
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instance = M.Carousel.init({
-      fullWidth: true
-    });
+  $(document).ready(function() {
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
 
 
 
   // Interaccion 4
-  document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.carousel');
-    var instances = M.Carousel.init(elems, options);
+  $(document).ready(function(){
+    $('.carousel').carousel();
   });
