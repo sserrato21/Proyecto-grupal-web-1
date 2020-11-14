@@ -171,6 +171,8 @@ header{
             height: 1600px;
         }
         #parte1{
+            display: flex;
+            flex-direction: column;
             height: 500px;
             background-size: 1350px;
             background-repeat: no-repeat;
@@ -193,6 +195,23 @@ header{
         #parte4{
             height: 500px;
             background-color:#94C6B1;
+        }
+        #tex1{
+            margin-top: 70px;
+            height: 90px;
+        }
+        #tex3{
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+        }
+        #tex4{
+            margin-top: 60px;
+            height: 90px;
+        }
+        #tex6{
+            margin-top: 60px;
+            height: 90px;
         }
      /* ---------------------------------------Footer-------------------------------------------*/
 
