@@ -1,18 +1,5 @@
 // alert('hola');
 
-
-
-// Interaccion 3
-
-document.getElementById("btnabrir").addEventListener("click",function(){
-  document.getElementsByClassName("fondo_transparente")[0].style.display="flex" 
-  return false
-});
-
-document.getElementsByClassName("modal_cerrar")[0].addEventListener("click",function(){
-   document.getElementsByClassName("fondo_transparente")[0].style.display="none" 
-});
-
 // Interaccion 1
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -29,3 +16,15 @@ $(document).ready(function() {
   });
 
 
+  // Interaccion 3
+  $(document).ready(function() {
+  $('.carousel.carousel-slider').carousel({
+    fullWidth: true
+  });
+
+
+
+  // Interaccion 4
+  $(document).ready(function(){
+    $('.carousel').carousel();
+  });
