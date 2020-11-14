@@ -15,10 +15,14 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 
+
+<!-- -----------------------MATERIALIZE CSS (ONLINE AND OFFLINE) ------------------------------>
+
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
     <link rel="stylesheet" href="./lib/materialize/css/materialize.min.css">
     <!-- ya agregue la libreria de materialize a la carpeta de la pagina web, la libreria esta en la carpeta 'lib' -->
-    <link rel="stylesheet" href="./src/css/main.css">
+    
+<!-- ------------------------------------------------------------ ------------------------------>    
     
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -28,6 +32,40 @@
 
 </head>
 <body>
+    
+    <div class="fondo_transparente">
+        <div class="modal1">
+           
+            <div class="modal_titulo"> 
+               <p>CONTÁCTANOS</p>
+                <div class="modal_cerrar">
+                    <img src="../Proyecto grupal web 1/src/imgs/boton_cerrar.svg" alt="">
+                </div>
+            </div>
+            <div class=" row modal_contenido">
+                <div class="col l8 m7 s12 " id="left_content">
+                    <div class="content_section" id="content_section1">
+                        <p class="content_section_title" id="content_section_title1">CORREO ELECTRONICO</p>
+                        <p class="content_section_text">GreenXperience@email.com</p>
+                    </div>
+                    <div class="content_section_line"></div>
+                    <div class="content_section" id="content_section2">
+                        <p class="content_section_title" id="content_section_title2">DONDE ENCONTRARNOS</p>
+                        <p class="content_section_text">Dirección: calle 47 Ssdfash - Avenida Kjaksjf - Edificio JLiejasf <br>Ciudad: Uijskjdkfj <br>Piso: 7 - Local: 725</p>
+                    </div>
+                    <div class="content_section_line"></div>
+                    <div class="content_section" id="content_section3">
+                        <p class="content_section_title" id="content_section_title3">TELEFONO</p>
+                        <p class="content_section_text">1-459-987-3724</p>
+                    </div>
+                </div>
+                <div class="col l4 m5 s12 google_maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125335.3331836835!2d-74.88805811168668!3d10.983803942736984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8ef42d44d12ae605%3A0x2633844581b917b2!2sBarranquilla%2C%20Atl%C3%A1ntico!5e0!3m2!1ses-419!2sco!4v1605216795006!5m2!1ses-419!2sco" width="200" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>   
+
     <header class="row">
         <div class="col l6 m12 s12 header" id="header1" >
                 <div id="logo">
@@ -50,7 +88,7 @@
                 <div class="option">Secciones</div>
                 <div class="option" id="option_home">Home</div>
                 <div class="option">Galeria</div>
-                <div class="option">Contáctanos</div>
+                <div class="option page" ><a href="#" class="boton" id="btnabrir">Contactanos</a></div>
             </div>
         </div> 
         <div class="col l12 m12 s12" id="menu_line"></div>
@@ -58,6 +96,7 @@
     <main>
 
     <!-- Aqui va el contenido principal que varia de acuerdo a cada pagina (home, seccion 1, seccion 2)  -->
+
     <div class="row">
         <div class="col s12" id="parte1"><span class="flow-text">1</span></div>
         
@@ -69,6 +108,7 @@
         
         <div class="col s12" id="parte4"></div>
     </div>
+
     </main>
     <footer class="row">
         <div class="row" id="footer_op">
@@ -109,7 +149,11 @@
             </div>
 
         </div>
+        
     </footer>
+       
+        
+        
    
 
 <script src="./src/js/pagina web 1.js"></script>

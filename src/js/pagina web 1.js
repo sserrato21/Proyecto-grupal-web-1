@@ -1,5 +1,18 @@
 // alert('hola');
 
+
+
+// Interaccion 3
+
+document.getElementById("btnabrir").addEventListener("click",function(){
+  document.getElementsByClassName("fondo_transparente")[0].style.display="flex" 
+  return false
+});
+
+document.getElementsByClassName("modal_cerrar")[0].addEventListener("click",function(){
+   document.getElementsByClassName("fondo_transparente")[0].style.display="none" 
+});
+
 // Interaccion 1
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -14,3 +27,5 @@ document.addEventListener('DOMContentLoaded', function() {
 $(document).ready(function() {
     $('input#input_text, textarea#textarea2').characterCounter();
   });
+
+
