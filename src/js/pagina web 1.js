@@ -37,7 +37,7 @@ $(document).ready(function() {
 
 // -------hubo un problema con la interaccion 4, al estar activa, la interaccion 1 deja de funcionar de repente--------
 // -------por eso la puse como un comentario (en texto verde) mientras tanto porque al parecer hay algo interfiriendo con la interaccion 1 (la del modal)--------
-e
+
 
 //   // Interaccion 5
   $(document).ready(function(){
