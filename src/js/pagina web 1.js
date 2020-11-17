@@ -2,7 +2,7 @@
 
 
 
-// Interaccion 1
+// Interaccion 1 modal contactanos
 
 document.getElementById("btnabrir").addEventListener("click",function(){
   document.getElementsByClassName("fondo_transparente")[0].style.display="flex" 
@@ -13,7 +13,7 @@ document.getElementsByClassName("modal_cerrar")[0].addEventListener("click",func
    document.getElementsByClassName("fondo_transparente")[0].style.display="none" 
 });
 
-// Interaccion 2
+// Interaccion 2 idioma
 
 document.addEventListener('DOMContentLoaded', function() {
   let elems = document.querySelectorAll('.dropdown-trigger');
@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 // ----------------------
 
-// Interaccion 3
+// Interaccion 3 suscribirse al newsletter
 
 $(document).ready(function() {
     $('input#input_text, textarea#textarea2').characterCounter();
@@ -37,9 +37,14 @@ $(document).ready(function() {
 
 // -------hubo un problema con la interaccion 4, al estar activa, la interaccion 1 deja de funcionar de repente--------
 // -------por eso la puse como un comentario (en texto verde) mientras tanto porque al parecer hay algo interfiriendo con la interaccion 1 (la del modal)--------
+e
+
+// //   // Interaccion 5
+//   $(document).ready(function(){
+//     $('.carousel').carousel();
+//   });
 
 
-//   // Interaccion 5
-  $(document).ready(function(){
-    $('.carousel').carousel();
+  var instance = M.Carousel.init({
+    fullWidth: true
   });
