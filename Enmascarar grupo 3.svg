@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="41" height="40" viewBox="0 0 41 40">
+  <defs>
+    <clipPath id="clip-path">
+      <ellipse id="Elipse_1" data-name="Elipse 1" cx="20.5" cy="20" rx="20.5" ry="20" transform="translate(0 0.079)" fill="none" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_3" data-name="Enmascarar grupo 3" transform="translate(0 -0.079)" clip-path="url(#clip-path)">
+    <g id="_60580" data-name="60580" transform="translate(-0.461 -0.461)">
+      <g id="post-twitter">
+        <path id="Trazado_10" data-name="Trazado 10" d="M37.732,0H4.192A4.2,4.2,0,0,0,0,4.192V37.732a4.2,4.2,0,0,0,4.192,4.192H37.732a4.2,4.2,0,0,0,4.192-4.192V4.192A4.2,4.2,0,0,0,37.732,0ZM32.91,15.3c-.21,9.643-6.289,16.35-15.512,16.77a15.258,15.258,0,0,1-9.014-2.515,11.128,11.128,0,0,0,8.175-2.306,5.663,5.663,0,0,1-5.241-3.983,8.455,8.455,0,0,0,2.306,0,5.71,5.71,0,0,1-4.4-5.66,4.226,4.226,0,0,0,2.306.629c-1.887-1.048-3.144-5.031-1.677-7.546A16.611,16.611,0,0,0,21.381,16.56c-1.467-5.869,6.5-9.014,9.643-5.031a14.122,14.122,0,0,0,3.564-1.258,5.927,5.927,0,0,1-2.306,3.144,12.016,12.016,0,0,0,2.935-.838C35.007,13.625,33.959,14.464,32.91,15.3Z" fill="#e2eac4"/>
+      </g>
+    </g>
+  </g>
+</svg>
