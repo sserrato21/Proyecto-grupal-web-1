@@ -368,6 +368,14 @@ header{
         height: 440px;
         background-color:#F3D3CB;
     }
+    #parte31{
+      width: 280px;
+      margin-left: 160px; 
+      margin-top: -100px; 
+    }
+    #parte31 img{
+        width: 100%;
+    }
     #parte4{
         height: 500px;
         background-color:#94C6B1;
@@ -479,8 +487,9 @@ header{
         }
 
     #carruselazul{
-      width: 50px;
-      height: 50px;
+      width: 280px;
+      margin-top: -60px;
+      margin-left: 160px;
     }
     #carruselazul img{
         width: 100%;
