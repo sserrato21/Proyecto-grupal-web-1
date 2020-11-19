@@ -305,6 +305,7 @@ header{
 
         #menu_line{
             height: 7px;
+            background-color:#E0E89B;
         }
  
      /* ---------------------------------------Main -------------------------------------------*/
@@ -328,7 +329,8 @@ header{
 
     .variedades{
         background-color: #F99B43;
-        height: auto;
+        height:870px;
+        padding-left: 10px;
     }
 
     .orn-titulo{
@@ -364,36 +366,53 @@ header{
         outline: none;
         cursor: pointer;
         transition: 0.8s;
-        border-radius: 20px;
+        border-radius: 10px;
         padding-right: 10px;
         padding-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
 
     }
 
-    .tablinks:hover{
+    .tablinks:hover, .tablinks:focus{
         background-color: #c9771f;
     }
     .tabcontent{
         display: none;
     }
+
+        #contenido_sidenav{
+            padding: 30px;
+        }
     
     .nombre-cienti{
-        font-size: 3.6vw;
-        font-family: 'Montserrat';
+        font-size: 45px;
+        font-family: 'Montserrat Alternates', sans-serif;
         font-weight: 700;
         color: #845C32;
         display: flex;
+        margin: 0px 0px 0px 0px;
     }
 
     img{
         border-radius: 10px;
         object-fit: cover;
     }
+
+    #menu_line_sidenav{
+        background-color: #A57B4F;
+        height: 7px;
+    }
+
+    /* -------------------Flip card ----------------------*/
+
     .flip-card {
-  width: 950px;
-  height: 635px;
+  width: 270px;
+  height: 380px;
   border: none;
   perspective: 1000px; 
+  margin-top: 20px;
 }
 
 .flip-card-inner {
@@ -433,13 +452,92 @@ header{
 }
 
 .texto{
-    font-size: 2.2vw;
+    font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     color:#8f5414;
-    margin: 100px;
-    padding-top: 100px;
+    margin: 30px;
 }
 
+.texto span{
+    font-weight: 700;
+}
+/* -------------------Acordion ----------------------*/
+
+#accordion_elements{
+    margin-top: 30px;
+}
+
+.accordion {
+    background-color: rgb(255, 255, 255);
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+    box-shadow: rgba(144, 144, 144, 0.383) 0px 4px 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    transition: 1s;
+  }
+  
+  .accordion:hover {
+    background-color: rgb(241, 241, 241);
+  }
+
+  .accordion:active, .accordion:focus{
+      background-color: rgb(255, 255, 255);
+  }
+  
+  .panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    margin-bottom: 20px;
+    
+  }
+
+  .panel p{
+      margin: 20px 10px 20px 10px;
+  }
+
+  #accordion1{
+      color: #F99B43;
+  }
+
+  #accordion1:focus{
+    background-color: #ffe9d5;
+}
+
+  #accordion2{
+    color: #E0E89B;
+}
+
+    #accordion2:focus{
+        background-color: #afb952;
+    }
+
+    #accordion3{
+        color: #2C6A25;
+    }
+
+    #accordion3:focus{
+        background-color:  #a2da9c;
+    }
+
+    #accordion4{
+        color: #ABC89B;
+    }
+
+    #accordion4:focus{
+        background-color:  #3b6824;
+    }
 
 
      /* ---------------------------------------Footer-------------------------------------------*/
@@ -614,6 +712,9 @@ header{
                 flex-direction: row;
                 border-radius: 10px;
             }
+
+            
+
         }
 
 
@@ -678,5 +779,7 @@ header{
                 align-items: center;
                 margin-top: 100px;
             }
+
+            
         }
     

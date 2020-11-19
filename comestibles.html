@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GreenXperience</title>
-    <link rel="stylesheet" href="./src/css/comestibles.css">
+    <link rel="stylesheet" href="./comestibles.css">
     <link rel="shortcut icon" href="src/imgs/icono.png" type="image/x-icon">
 
         
@@ -97,11 +97,11 @@
     </header>
     <main>
         <div class="row">
-            <div class="variedades col s3 tab">
-                <h1 class="orn-titulo">Variedades Ornamentales</h1>
-                <img class="responsive-img" src="./src/imgs/3418652.svg">
+            <div class="variedades col l3 m3 s3 tab">
+                <h1 class="orn-titulo">Variedades Comestibles</h1>
+                <img class="responsive-img" src="./3418652.svg">
 
-                <button class="tablinks" onclick="openCity(event, 'uno')" id="defaultOpen"><h2 class="orn-nombre title">Nombre de una planta</h2></button>
+                <button class="tablinks " onclick="openCity(event, 'uno')" id="defaultOpen"><h2 class="orn-nombre title">Cinnamomum verum</h2></button>
                 <div class="content_section_line division"></div>
 
                 <button class="tablinks" onclick="openCity(event, 'dos')" ><h2 class="orn-nombre title">Nombre de una planta</h2></button>
@@ -115,90 +115,237 @@
 
                 <button class="tablinks" onclick="openCity(event, 'cinco')" ><h2 class="orn-nombre title">Nombre de una planta</h2></button>
 
-                <div class="division2" id="menu_line"></div>
+                <div class="division2" id="menu_line_sidenav"></div>
             </div>
         
-            <div class="container col s8">
+            <div id="contenido_sidenav" class=" col l9 m9 s9">
 
                 <div id="uno" class="tabcontent">
 
-                   <h1 class="nombre-cienti">Nombre Cientifico</h1>
-                   <div class="flip-card">
-                       <div class="flip-card-inner">
-                            <div class="flip-card-front responsive-img">
-                                <img src="./src/imgs/com/1.png" width="950px">
-                            </div>
-                            <div class="flip-card-back">
-                                <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                   <h1 class="nombre-cienti">CINNAMOMUM VERUM</h1>
+                    <div class="col l4 m4 s12">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front responsive-img">
+                                    <img src="https://www.lazylagoon.net/images/article/botanica/Cinnamon.jpg" height="100%">
+                                </div>
+                                <div class="flip-card-back">
+                                    <p class="texto"><span class="titulo_card" >TAXONOMIA</span> <br> Reino:	Plantae
+                                        División:	Magnoliophyta
+                                        Clase:	Magnoliopsida
+                                        Orden:	Laurales
+                                        Familia:	Lauraceae
+                                        Género:	Cinnamomum
+                                        Especie:	Cinnamomum verum
+                                        J.Presl</p>
+                                </div>
                             </div>
                         </div>
                     </div>
-        
+
+                    <div  id="accordion_elements"  class="col l8 m12 s12" >
+
+
+                            <button id="accordion1" class="accordion">ASPECTOS GENERALES</button>
+                            <div  class="panel">
+                            <p>El árbol de la canela, conocido como canelo,​ (Cinnamomum zeylanicum o Cinnamomum verum J.Presl) es un árbol de hoja perenne, de 10 a 15 metros de altura, procedente de Sri Lanka. Se aprovecha como especia su corteza interna, que se obtiene pelando y frotando las ramas. </p>
+                            </div>
+
+                            <button id="accordion2" class="accordion">USOS Y PROPIEDADES</button>
+                            <div class="panel">
+                            <p>Molida se utiliza ampliamente en postres, pasteles, dulces, etc., y entera se emplea para adornar y sazonar algunos platos. En México, Ecuador, Chile, Venezuela, Perú, Costa Rica y Colombia se usa en el té de canela, que resulta de poner té de Ceilán con unas varitas de canela a hervir en agua hasta obtener la infusión, agregando azúcar al gusto. </p>
+                            </div>
+
+                            <button id="accordion3" class="accordion">HABITAT Y CUIDADOS</button>
+                            <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+
+                            <button id="accordion4" class="accordion">FRUTOS Y SEMILLAS</button>
+                            <div class="panel">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            </div>
+
+                    </div>
+                    
+
                 </div>
 
                 <div id="dos" class="tabcontent">
 
-                   <h1 class="nombre-cienti">Nombre Cientifico</h1>
-                   <div class="flip-card">
-                       <div class="flip-card-inner">
-                            <div class="flip-card-front responsive-img">
-                                <img src="./src/imgs/com/2.png" width="950px">
-                            </div>
-                            <div class="flip-card-back">
-                                <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                            </div>
-                        </div>
-                    </div>
+                    <h1 class="nombre-cienti">NOMBRE CIENTIFICO</h1>
+                     <div class="col l4 m4 s12">
+                         <div class="flip-card">
+                             <div class="flip-card-inner">
+                                 <div class="flip-card-front responsive-img">
+                                     <img src="https://www.lazylagoon.net/images/article/botanica/Cinnamon.jpg" height="100%">
+                                 </div>
+                                 <div class="flip-card-back">
+                                     <p class="texto"><span class="titulo_card" >TAXONOMIA</span> <br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div  id="accordion_elements"  class="col l8 m12 s12" >
+ 
+ 
+                             <button id="accordion1" class="accordion">ASPECTOS GENERALES</button>
+                             <div  class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion2" class="accordion">USOS Y PROPIEDADES</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion3" class="accordion">HABITAT Y CUIDADOS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion4" class="accordion">FRUTOS Y SEMILLAS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                     </div>
+                     
+ 
+                 </div>
 
-                </div>
+                 <div id="tres" class="tabcontent">
 
-                <div id="tres" class="tabcontent">
+                    <h1 class="nombre-cienti">NOMBRE CIENTIFICO</h1>
+                     <div class="col l4 m4 s12">
+                         <div class="flip-card">
+                             <div class="flip-card-inner">
+                                 <div class="flip-card-front responsive-img">
+                                     <img src="https://www.lazylagoon.net/images/article/botanica/Cinnamon.jpg" height="100%">
+                                 </div>
+                                 <div class="flip-card-back">
+                                     <p class="texto"><span class="titulo_card" >TAXONOMIA</span> <br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div  id="accordion_elements"  class="col l8 m12 s12" >
+ 
+ 
+                             <button id="accordion1" class="accordion">ASPECTOS GENERALES</button>
+                             <div  class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion2" class="accordion">USOS Y PROPIEDADES</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion3" class="accordion">HABITAT Y CUIDADOS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion4" class="accordion">FRUTOS Y SEMILLAS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                     </div>
+                     
+ 
+                 </div>
 
-                   <h1 class="nombre-cienti">Nombre Cientifico</h1>
-                   <div class="flip-card">
-                       <div class="flip-card-inner">
-                            <div class="flip-card-front responsive-img">
-                                <img src="./src/imgs/com/3.png" width="950px">
-                            </div>
-                            <div class="flip-card-back">
-                                <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                            </div>
-                        </div>
-                    </div>
+                 <div id="cuatro" class="tabcontent">
 
-                </div>
+                    <h1 class="nombre-cienti">NOMBRE CIENTIFICO</h1>
+                     <div class="col l4 m4 s12">
+                         <div class="flip-card">
+                             <div class="flip-card-inner">
+                                 <div class="flip-card-front responsive-img">
+                                     <img src="https://www.lazylagoon.net/images/article/botanica/Cinnamon.jpg" height="100%">
+                                 </div>
+                                 <div class="flip-card-back">
+                                     <p class="texto"><span class="titulo_card" >TAXONOMIA</span> <br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div  id="accordion_elements"  class="col l8 m12 s12" >
+ 
+ 
+                             <button id="accordion1" class="accordion">ASPECTOS GENERALES</button>
+                             <div  class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion2" class="accordion">USOS Y PROPIEDADES</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion3" class="accordion">HABITAT Y CUIDADOS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion4" class="accordion">FRUTOS Y SEMILLAS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                     </div>
+                     
+ 
+                 </div>
 
-                <div id="cuatro" class="tabcontent">
+                 <div id="cinco" class="tabcontent">
 
-                   <h1 class="nombre-cienti">Nombre Cientifico</h1>
-                   <div class="flip-card">
-                       <div class="flip-card-inner">
-                            <div class="flip-card-front responsive-img">
-                                <img src="./src/imgs/com/4.png" width="955px">
-                            </div>
-                            <div class="flip-card-back">
-                                <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-
-                <div id="cinco" class="tabcontent">
-
-                   <h1 class="nombre-cienti">Nombre Cientifico</h1>
-                   <div class="flip-card">
-                       <div class="flip-card-inner">
-                            <div class="flip-card-front responsive-img">
-                                <img src="./src/imgs/com/5.png" width="975px">
-                            </div>
-                            <div class="flip-card-back">
-                                <p class="texto">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
+                    <h1 class="nombre-cienti">NOMBRE CIENTIFICO</h1>
+                     <div class="col l4 m4 s12">
+                         <div class="flip-card">
+                             <div class="flip-card-inner">
+                                 <div class="flip-card-front responsive-img">
+                                     <img src="https://www.lazylagoon.net/images/article/botanica/Cinnamon.jpg" height="100%">
+                                 </div>
+                                 <div class="flip-card-back">
+                                     <p class="texto"><span class="titulo_card" >TAXONOMIA</span> <br> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                                 </div>
+                             </div>
+                         </div>
+                     </div>
+ 
+                     <div  id="accordion_elements"  class="col l8 m12 s12" >
+ 
+ 
+                             <button id="accordion1" class="accordion">ASPECTOS GENERALES</button>
+                             <div  class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion2" class="accordion">USOS Y PROPIEDADES</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion3" class="accordion">HABITAT Y CUIDADOS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                             <button id="accordion4" class="accordion">FRUTOS Y SEMILLAS</button>
+                             <div class="panel">
+                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                             </div>
+ 
+                     </div>
+                     
+ 
+                 </div>
 
             </div>
 
@@ -253,7 +400,7 @@
         
    
 
-<script src="./src/js/comestibles.js"></script>
+<script src="./comestibles.js"></script>
 
 <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script> -->
 <script src="./lib/materialize/js/materialize.min.js"></script>
